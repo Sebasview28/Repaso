@@ -4,7 +4,9 @@
 void convertirBase(int n, int b) {
     char resultado[3000]; // Al tener que transformar números grandes y fechas actuales pondremos que no sobrepase los 3000 caracteres
     int index = 0;
-
+//holiiid
+//cómo nos está yendo goood
+   while (n > 0) {   while (n > 0) {
     if (b < 2 || b > 16) {
         printf("Base no válida\n");
         return;
